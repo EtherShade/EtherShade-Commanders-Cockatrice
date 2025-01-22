@@ -229,7 +229,7 @@ Whenever you lose life, this creature gets +1/+1 until end of turn.</text>
         <maintype>Enchantment</maintype>
       </prop>
       <tablerow>1</tablerow>
-      <text>
+      <text>(As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)
 I — Create a treasure token.
 II — Discover 4. (Exile cards from the top of your library until you exile a nonland card with mana value 4 or less. Cast it without paying its mana cost or put it into your hand. Put the rest on the bottom in a random order.)
 III — Exile cards from the top of your library until you exile an artifact card with mana value 5 or less. Cast it without paying its mana cost. Put the rest on the bottom in a random order.</text>
@@ -304,33 +304,35 @@ Equip {3}</text>
       </prop>
       <tablerow>3</tablerow>
       <text>The next spell you cast this turn can’t be countered.
-Flashback {3} (You may cast this card from your graveyard for its flashback cost. Then exile it.)</text>
-    </card>
-    <card>
-      <name>Countercounter 2</name>
-      <set rarity="common"></set>
-      <prop>
-        <colors></colors>
-        <manacost>5</manacost>
-        <cmc>5</cmc>
-        <type>Artifact</type>
-        <maintype>Artifact</maintype>
-      </prop>
-      <tablerow>1</tablerow>
-      <text>Whenever a spell you control becomes the target of a spell or ability you don’t control for the first time each turn, counter that spell or ability unless its controller pays {1}.</text>
+Flashback {3} (You may cast this card from your graveyard for its flashback cost. Then exile it.)
+Cycling {1} ({1}, Discard this card: Draw a card.)</text>
     </card>
     <card>
       <name>Countercounter 3</name>
       <set rarity="common"></set>
       <prop>
         <colors></colors>
-        <manacost>4</manacost>
-        <cmc>4</cmc>
+        <manacost>3</manacost>
+        <cmc>3</cmc>
         <type>Enchantment</type>
         <maintype>Enchantment</maintype>
       </prop>
       <tablerow>1</tablerow>
-      <text>Whenever a spell you control is countered, you may pay {1}. If you do, draw a card.</text>
+      <text>Spells your opponents cast that target spells you control cost {1} more to cast.</text>
+    </card>
+    <card>
+      <name>Countercounter 2</name>
+      <set rarity="common"></set>
+      <prop>
+        <colors></colors>
+        <manacost>1</manacost>
+        <cmc>1</cmc>
+        <type>Instant</type>
+        <maintype>Instant</maintype>
+      </prop>
+      <tablerow>3</tablerow>
+      <text>Target spell can’t be countered until end of turn.
+Cycling {1} ({1}, Discard this card: Draw a card.)</text>
     </card>
 
     <!-->Tokens</-->
